@@ -32,6 +32,8 @@ a{text-decoration: none;
        background-position: center;
        background-repeat: no-repeat;
        padding: 16px;
+       display: flex;
+       flex-direction: column;
 }
 header{
     display: flex;
@@ -56,10 +58,37 @@ nav a{
     }
     .active, nav a:hover{
         color:var(--tertiary-color);
-        
+
     }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        gap: 20px;
+    }
+    .hero h3 {
+        color: var(--tertiary-color);
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .hero h2 {
+        font-size: 77px;
+        font-weight: 700;
+        color: var(--primary-white);
+    }
+    .general-link {
+        border-width: 2px;
+        border-style: solid;
+        padding: 16px;
+
     }
     
+    .style-white {
+        colo
+    }
+
 
     
 
